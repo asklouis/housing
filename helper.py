@@ -1,6 +1,7 @@
 import pandas
 from pandas import DataFrame
 import matplotlib.pyplot as plt
+import matplotlib.font_manager as mfm
 
 # 公积金贷款金额是否超过公积金贷款上限
 def CheckHousingFundLessThenTotal(male_hf, male_hf_max, female_hf, female_hf_max):
